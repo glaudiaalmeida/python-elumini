@@ -11,4 +11,23 @@ for contador in range(1,4):
 
   print(f'Média: {(nota_1+nota_2)/2}')
 
+
+=====================================================
+for i in range(1,6):
+    if i == 4:
+        continue
+    print(i)
+
+
+=============================================
+#break - interrompe a execução do laço cmpletamente, saindo do bloco de código.
+
+for i in range(1,6):
+    if i == 4:
+        break
+    print(i)
+
+=============================================
+
+
 """
